@@ -13,20 +13,23 @@ export default class Firstview extends Component {
         </div>
         <div className='contain'>
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla sodales porttitor. Quisque sit amet magna sed dui pretium aliquam. Fusce leo tortor, sollicitudin nec pharetra non, vehicula vel elit. In nisl dui, faucibus quis sem et, iaculis iaculis neque. Donec non mi congue, tempor enim vitae, tincidunt lorem. Cras facilisis vel dolor sed scelerisque. Curabitur viverra augue ut pretium hendrerit. Sed auctor tellus sit amet iaculis pellentesque. Maecenas ultrices neque elit, et elementum purus mollis nec.
+            Esta página web fue diseñada con la finalidad de generar un control y una optimización en el tiempo estimado para generar un desarrollo eficaz de un torneo en específico.
+            Mediante esta página web podremos encontrar las opciones de crear, agregar, editar partidos, donde para la creación de cada partido es necesario cumplir una clase de requisitos las cuales son las normas del torneo.
           </p>
           <div className='d-flex mt-5'>
             <div className='team1 me-5'></div>
             <div className='team2 ms-5'></div>
           </div>
           <p className='mt-5'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla sodales porttitor. Quisque sit amet magna sed dui pretium aliquam. Fusce leo tortor, sollicitudin nec pharetra non, vehicula vel elit. In nisl dui, faucibus quis sem et, iaculis iaculis neque. Donec non mi congue, tempor enim vitae, tincidunt lorem. Cras facilisis vel dolor sed scelerisque. Curabitur viverra augue ut pretium hendrerit. Sed auctor tellus sit amet iaculis pellentesque. Maecenas ultrices neque elit, et elementum purus mollis nec.
+            Entre ellas están una creación de equipos en aleatorio para generar equipos nivelados y no presentar beneficios para algún equipo integrante del torneo.
+            Las calificaciones de cada jugador será la base de nuestro análisis para poder elegir equipos nivelados, estas calificaciones las darán los mismos jugadores del torneo para tener una neutralidad.
           </p>
           <div className='d-flex justify-content-center mt-5 mb-5'>
-            <Button variant="success" size="lg">Crear Partido</Button>
+            <Button href="/teamview" variant="success" size="lg">Crear Partido</Button>
           </div>
           <p className='mt-5'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla sodales porttitor. Quisque sit amet magna sed dui pretium aliquam. Fusce leo tortor, sollicitudin nec pharetra non, vehicula vel elit. In nisl dui, faucibus quis sem et, iaculis iaculis neque. Donec non mi congue, tempor enim vitae, tincidunt lorem. Cras facilisis vel dolor sed scelerisque. Curabitur viverra augue ut pretium hendrerit. Sed auctor tellus sit amet iaculis pellentesque. Maecenas ultrices neque elit, et elementum purus mollis nec.
+            Se tendrán en cuenta las sanciones y penalidades, así como las incapacidades para generar la alineación de los equipos.
+            En el siguiente botón podremos iniciar a crear nuestro partido.
           </p>
         </div>
       </main>
